@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zX3-lY-jZB">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="5eM-9Y-35u">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="zX3-lY-jZB" customClass="MainViewController" customModule="Armnature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sNL-9k-OaM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9om-z7-Wdv">
+                                <rect key="frame" x="0.0" y="68" width="414" height="794"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="EU8-oa-awf">
+                                        <rect key="frame" x="48" y="0.0" width="318" height="435"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="s0d-bw-d0o">
+                                                <rect key="frame" x="84" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="s0d-bw-d0o" secondAttribute="height" multiplier="1:1" id="4bP-kl-Dmx"/>
+                                                    <constraint firstAttribute="height" constant="150" id="F9V-0d-prQ">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="350"/>
+                                                    </constraint>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARMENIAN NATURE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccf-cb-BQd">
+                                                <rect key="frame" x="45.5" y="174" width="227.5" height="31"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="60"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This application gives information about a beautiful country called Armenia" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaT-2k-s7t">
+                                                <rect key="frame" x="18.5" y="229" width="281" height="62"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                                </variation>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1s-Ba-Ywa">
+                                                <rect key="frame" x="48" y="315" width="222" height="48"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="zoK-b4-clG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Log in">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="24"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzc-br-eXv">
+                                                <rect key="frame" x="48" y="387" width="222" height="48"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="gye-8Z-SKL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <size key="titleShadowOffset" width="10" height="10"/>
+                                                <state key="normal" title="Sign up">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="24"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="h1s-Ba-Ywa" secondAttribute="trailing" constant="48" id="2bh-qr-PTH"/>
+                                            <constraint firstItem="h1s-Ba-Ywa" firstAttribute="leading" secondItem="EU8-oa-awf" secondAttribute="leading" constant="48" id="6iJ-sT-JxX"/>
+                                            <constraint firstItem="uzc-br-eXv" firstAttribute="width" secondItem="h1s-Ba-Ywa" secondAttribute="width" id="XVZ-1s-PqU"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="EU8-oa-awf" firstAttribute="top" secondItem="9om-z7-Wdv" secondAttribute="top" id="2Xm-AZ-kje">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="48"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="EU8-oa-awf" secondAttribute="trailing" constant="48" id="HZB-LB-kvS">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="144"/>
+                                    </constraint>
+                                    <constraint firstItem="EU8-oa-awf" firstAttribute="leading" secondItem="9om-z7-Wdv" secondAttribute="leading" constant="48" id="ZlF-hz-njf">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="144"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="EU8-oa-awf" secondAttribute="bottom" constant="48" id="ao7-NJ-w8q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9om-z7-Wdv" firstAttribute="trailing" secondItem="xSI-ZN-Zk7" secondAttribute="trailing" id="2p2-yG-qou"/>
+                            <constraint firstItem="xSI-ZN-Zk7" firstAttribute="top" secondItem="9om-z7-Wdv" secondAttribute="top" constant="-24" id="A9Z-UB-tXL"/>
+                            <constraint firstItem="9om-z7-Wdv" firstAttribute="bottom" secondItem="xSI-ZN-Zk7" secondAttribute="bottom" id="SLO-ON-P2p"/>
+                            <constraint firstItem="9om-z7-Wdv" firstAttribute="leading" secondItem="xSI-ZN-Zk7" secondAttribute="leading" id="wED-Zj-340"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xSI-ZN-Zk7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rcH-ZF-f0S"/>
+                    <connections>
+                        <outlet property="baseStackView" destination="EU8-oa-awf" id="EI8-OV-Ge4"/>
+                        <outlet property="loginButton" destination="h1s-Ba-Ywa" id="lM5-ml-HLu"/>
+                        <outlet property="signupButton" destination="uzc-br-eXv" id="6Gh-tO-DCF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awt-gd-1AI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1194.2028985507247" y="190.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="122" height="117"/>
+    </resources>
+</document>

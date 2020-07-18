@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ETe-JH-mM2">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Provinces-->
+        <scene sceneID="TST-Al-h5C">
+            <objects>
+                <viewController storyboardIdentifier="CitiesInRegionsViewController" id="ETe-JH-mM2" customClass="CitiesInRegionsViewController" customModule="Armnature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sfj-uE-8ts">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Bpq-KQ-Rfn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="16" minimumInteritemSpacing="16" id="aMy-ly-08S">
+                                    <size key="itemSize" width="197" height="170"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="16" minY="16" maxX="16" maxY="16"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CitiesInRegionsCollectionViewCell" reuseIdentifier="CitiesInRegionsCollectionViewCell" id="u39-Pr-raU" customClass="CitiesInRegionsCollectionViewCell" customModule="Armnature" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="16" width="160" height="185.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="177-my-lFw">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="185.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8F6-JH-Plu">
+                                                    <rect key="frame" x="0.0" y="0.0" width="160" height="185.5"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z8J-Cp-no3">
+                                                            <rect key="frame" x="5" y="5" width="150" height="150"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="Z8J-Cp-no3" secondAttribute="height" id="HIb-NY-nM7"/>
+                                                                <constraint firstAttribute="height" constant="150" id="ROq-XE-HB5"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRL-aq-u2V">
+                                                            <rect key="frame" x="0.0" y="160" width="160" height="25.5"/>
+                                                            <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="20"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="sRL-aq-u2V" secondAttribute="trailing" id="CIc-We-Owx"/>
+                                                        <constraint firstItem="Z8J-Cp-no3" firstAttribute="top" secondItem="8F6-JH-Plu" secondAttribute="top" constant="5" id="IIs-uB-9Gd"/>
+                                                        <constraint firstItem="sRL-aq-u2V" firstAttribute="leading" secondItem="8F6-JH-Plu" secondAttribute="leading" id="PN0-ao-fv8"/>
+                                                        <constraint firstItem="Z8J-Cp-no3" firstAttribute="leading" secondItem="8F6-JH-Plu" secondAttribute="leading" constant="5" id="SVE-b9-RDi"/>
+                                                        <constraint firstItem="sRL-aq-u2V" firstAttribute="top" secondItem="Z8J-Cp-no3" secondAttribute="bottom" constant="5" id="UV8-X1-zip"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Z8J-Cp-no3" secondAttribute="trailing" constant="5" id="nbt-ev-EcW"/>
+                                                        <constraint firstAttribute="bottom" secondItem="sRL-aq-u2V" secondAttribute="bottom" id="tg1-ag-I81"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8F6-JH-Plu" firstAttribute="leading" secondItem="177-my-lFw" secondAttribute="leading" id="Jay-LW-r33"/>
+                                                <constraint firstAttribute="trailing" secondItem="8F6-JH-Plu" secondAttribute="trailing" id="Mb9-Pb-cXN"/>
+                                                <constraint firstAttribute="bottom" secondItem="8F6-JH-Plu" secondAttribute="bottom" id="SdQ-8W-x5E"/>
+                                                <constraint firstItem="8F6-JH-Plu" firstAttribute="top" secondItem="177-my-lFw" secondAttribute="top" id="oDz-vq-7aA"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="contentImageView" destination="177-my-lFw" id="3oP-IM-yIO"/>
+                                            <outlet property="imageView" destination="Z8J-Cp-no3" id="5iT-Vk-3v9"/>
+                                            <outlet property="provinceName" destination="sRL-aq-u2V" id="eq6-Tw-2Jx"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="s3I-ec-qtm" firstAttribute="top" secondItem="Bpq-KQ-Rfn" secondAttribute="top" id="BAs-gK-3oy"/>
+                            <constraint firstItem="s3I-ec-qtm" firstAttribute="leading" secondItem="Bpq-KQ-Rfn" secondAttribute="leading" id="BMb-ib-CYl"/>
+                            <constraint firstItem="s3I-ec-qtm" firstAttribute="bottom" secondItem="Bpq-KQ-Rfn" secondAttribute="bottom" id="hmO-Au-cfV"/>
+                            <constraint firstItem="s3I-ec-qtm" firstAttribute="trailing" secondItem="Bpq-KQ-Rfn" secondAttribute="trailing" id="yaC-sC-QHO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s3I-ec-qtm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Provinces" image="p.circle" catalog="system" id="2KF-xl-7cd"/>
+                    <navigationItem key="navigationItem" id="S2A-bj-J5a"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Bpq-KQ-Rfn" id="otZ-Ae-qbN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ajH-Xe-tGY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2271" y="917"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="p.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

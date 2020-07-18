@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+def rx
+  pod 'RxCocoa', '~> 5.0'
+  pod 'RxDataSources', '~> 4.0'
+  pod 'RxSwift', '~> 5.0'
+  pod 'RxSwiftExt', '~> 5.0'
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Analytics'
+  pod 'SDWebImage', '~> 5.0'
+  pod "RxGesture"
+  # add pods for any other desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
+end
+
+target 'Armnature' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  rx
+  use_frameworks!
+
+  # Pods for Armnature
+
+  target 'ArmnatureTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ArmnatureUITests' do
+    # Pods for testing
+  end
+
+end
