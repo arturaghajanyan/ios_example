@@ -12,7 +12,6 @@
 - XCTest
 
 <h3>Intuduction Armnature</h3>
-
 <h4>This application provides information about Armenian historical places. </h4>
 
 <h3>How to install application.</h3>
