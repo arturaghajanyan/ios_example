@@ -73,7 +73,6 @@ class RegionsViewController: UIViewController {
         let storyboard = UIStoryboard(name: "CitiesInRegions", bundle: nil)
         guard let citiesViewController = storyboard.instantiateViewController(withIdentifier: "CitiesInRegionsViewController") as? CitiesInRegionsViewController else { return }
         citiesViewController.configure(with: CitiesInRegionsViewModel(cities: cities))
-        citiesViewController.view.backgroundColor = .green
         show(citiesViewController, sender: nil)
     }
 

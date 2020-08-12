@@ -13,6 +13,7 @@
 		8E4ACA52247D662100D3B932 /* ForgotPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4ACA51247D662100D3B932 /* ForgotPassword.storyboard */; };
 		8E4ACA54247D692000D3B932 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4ACA53247D692000D3B932 /* ForgotPasswordViewController.swift */; };
 		8E4ACA56247D693100D3B932 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4ACA55247D693100D3B932 /* ForgotPasswordViewModel.swift */; };
+		8E5B2D7924E2C9B1004B2B8E /* ArmnatureFirstTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B2D7824E2C9B1004B2B8E /* ArmnatureFirstTest.swift */; };
 		8E7F3F4F249FEFB20041DD71 /* RegionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F3F4E249FEFB20041DD71 /* RegionsViewModel.swift */; };
 		8E7F3F51249FEFBE0041DD71 /* RegionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F3F50249FEFBE0041DD71 /* RegionsViewController.swift */; };
 		8E7F3F55249FF0220041DD71 /* RegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F3F53249FF0220041DD71 /* RegionTableViewCell.swift */; };
@@ -112,6 +113,7 @@
 		8E4ACA51247D662100D3B932 /* ForgotPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForgotPassword.storyboard; sourceTree = "<group>"; };
 		8E4ACA53247D692000D3B932 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		8E4ACA55247D693100D3B932 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		8E5B2D7824E2C9B1004B2B8E /* ArmnatureFirstTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmnatureFirstTest.swift; sourceTree = "<group>"; };
 		8E7F3F4E249FEFB20041DD71 /* RegionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsViewModel.swift; sourceTree = "<group>"; };
 		8E7F3F50249FEFBE0041DD71 /* RegionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsViewController.swift; sourceTree = "<group>"; };
 		8E7F3F53249FF0220041DD71 /* RegionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewCell.swift; sourceTree = "<group>"; };
@@ -458,6 +460,7 @@
 			children = (
 				8EBE2181247D32D0007A4E2B /* ArmnatureUITests.swift */,
 				8EBE2183247D32D0007A4E2B /* Info.plist */,
+				8E5B2D7824E2C9B1004B2B8E /* ArmnatureFirstTest.swift */,
 			);
 			path = ArmnatureUITests;
 			sourceTree = "<group>";
@@ -941,6 +944,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5B2D7924E2C9B1004B2B8E /* ArmnatureFirstTest.swift in Sources */,
 				8EBE2182247D32D0007A4E2B /* ArmnatureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
